@@ -18,6 +18,7 @@
   "homepage": "https://github.com/Bokdem/angular-js",
   "devDependencies": {
     "browser-sync": "^2.9.8",
+    "COMMENT":" vervang single-quote => 'chalk': '^1.1.1' ",
     "glob": "^5.0.15",
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^3.0.2",
