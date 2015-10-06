@@ -1,6 +1,6 @@
 # DEVELOPMENT BASE
-    * httpdocs/ is filled with output
-    * project/ is the working area
+* httpdocs/ is filled with output
+* project/ is the working area
 
 ###Clone the project
 To clone the prject to your local folder, type in your terminal:
@@ -27,4 +27,5 @@ This is the default option Gulp is set to. Gulp will automatically;
   * compile JADE on file save
 
 For now, this is about it! Maybe some music? ;D
+
 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img src="http://i.imgur.com/QPWf4un.png" alt="amazing!" width="100%" /></a>
