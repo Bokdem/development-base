@@ -11,8 +11,8 @@ require('require-dir')('./tasks');
 gulp.task('watch', function() {
   gulp.watch( path.SRC.templates + '**/*.jade', ['templates']);
   gulp.watch( path.SRC.styles + '**/*.{scss, sass}', ['styles']);
-  gulp.watch( path.SRC.scripts + 'app/**/*.js', ['js-app']);
-  gulp.watch( path.SRC.scripts + 'libs/**/*.js', ['js-libs']);
+  // gulp.watch( path.SRC.scripts + 'app/**/*.js', ['js-app']);
+  // gulp.watch( path.SRC.scripts + 'libs/**/*.js', ['js-libs']);
   // gulp.watch( path.SRC.images + '**/*', ['images']);
 });
 
