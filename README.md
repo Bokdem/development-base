@@ -12,6 +12,10 @@ To clone the prject to your local folder, type in your terminal:
 
 The project will now be cloned to the folder you selected in the terminal. To change the drectory root, type `cd go/to/this/folder`
 
+##Node Package Manager
+Build all Node devDependencies.
+
+`npm install`
 
 ##Start the building
 To activate Gulp to build the project, type in your terminal:
