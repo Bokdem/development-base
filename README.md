@@ -20,17 +20,17 @@ To activate Gulp to build the project, type in your terminal:
 
 This is the default option Gulp is set to. Gulp will automatically;
 * Build the project
-  * styles (compile SASS + merge + minify)
-  * scripts (merge + minify)
-  * templates (compile JADE + merge)
+  * _styles (compile SASS + merge + minify)_
+  * _scripts (merge + minify)_
+  * _templates (compile JADE + merge)_
 * Serve a localhost
-  * activate BrowserSync
-  * localhost at port:8000
+  * _activate BrowserSync_
+  * _localhost at port:8000_
 * Watch the project
-  * compile SASS on file save
-  * compile JADE on file save
+  * _compile SASS on file save_
+  * _compile JADE on file save_
 
 
-For now, this is about it! Maybe some music? ;D
+~~For now, this is about it! Maybe some music? ;D~~
 
 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img src="http://i.imgur.com/QPWf4un.png" alt="amazing!" width="100%" /></a>
