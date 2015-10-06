@@ -1,0 +1,77 @@
+// BREAKPOINTS
+$breakpoint-xs: 375px;
+$breakpoint-s: 500px;
+$breakpoint-m: 768px;
+$breakpoint-l: 1024px;
+$breakpoint-xl: 1200px;
+
+$max-width: 940px;
+
+$form-max-width: 360px;
+
+// colors
+$orange: #F48726;
+$blue: #4E84D2;
+$darkblue: #3E73BE;
+$darkblue-on-blue: #4270B2;
+
+$grey-xs: #F6F6F7;
+$grey-s: #ECECEE;
+$grey-m: #D8DADC;
+$grey-l: #8A8F96;
+$grey-xl: #636A73;
+$grey-xxl: #3B4450;
+
+$white-faded: rgba(white, .7);
+
+$grey-hover: #F0F3F6;
+
+
+$red: #EF5034;
+$error-input: #FFF3F3;
+$pink: #FDE5E1;
+$green: #2CC070;
+$yellow: #FFC246;
+$ideal-pink: #B9215E;
+
+$text-dark: $grey-xxl;
+
+
+// gradients
+$orange-gradient: linear-gradient(-180deg,#EB9114 0,#F48727 100%);
+$orange-gradient-hover: linear-gradient(-180deg, #EC9114 3%, #E97E20 100%);
+$grey-gradient: linear-gradient(-180deg, #FFFFFF 39%, #F0F3F6 100%);
+$grey-gradient-inverted: linear-gradient(-180deg, #F0F3F6 39%, #FFFFFF 100%);
+
+$border-color: #D8DADC;
+$border-color-dark: #868E9B;
+$border: 1px solid $border-color;
+$border-radius: 4px;
+
+$text-subtle: #868E9B;
+
+
+// Font stacks
+$font-body: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+$font-serif: Georgia, Times, "Times New Roman", serif;
+
+$font-book: "Ideal Sans SSm A", "Ideal Sans SSm B", $font-body; // 400
+$font-medium: "Ideal Sans SSm A", "Ideal Sans SSm B", $font-body; // 500
+$font-semibold: "Ideal Sans SSm A", "Ideal Sans SSm B", $font-body; // 600
+
+// Font sizes
+$small-size: .9em;
+$base-size: 14px;
+$large-size: 1.2em;
+
+
+$space-xs: 5px;
+$space-s: 15px;
+$space-m: 20px;
+$space-l: 30px;
+
+// Body line height
+$body-line-height: 22px;
+
+// folders
+$IMAGES_URL: '/Images/MijnFreo/';

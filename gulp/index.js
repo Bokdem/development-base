@@ -26,7 +26,7 @@ gulp.task('build', function() {
 // Serve task
 gulp.task('serve', ['server', 'watch']);
 
-//Default task
+// Default task
 gulp.task('default', ['build'], function() {
   gulp.start('serve');
 });

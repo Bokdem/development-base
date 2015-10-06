@@ -1,0 +1,34 @@
+@mixin inner{
+  @include clearfix;
+  width: 100%;
+  max-width: 1020px;
+  margin: 0 auto;
+  padding: 15px;
+  padding-top: $space-l;
+
+  @include minWidth($breakpoint-l) {
+    padding: 40px;
+  }
+}
+
+@mixin main{
+  // margin-bottom: 40px;
+
+  @include minWidth($breakpoint-m){
+    width: calc(75% - 20px);
+    float: left;
+    margin-right: $space-m;
+  }
+  @include minWidth($breakpoint-l) {
+    width: 65%;
+  }
+}
+
+@mixin sidebar{
+
+  @include minWidth($breakpoint-m){
+    display: block;
+    width: 25%;
+    float: right;
+  }
+}
