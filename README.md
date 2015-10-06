@@ -8,7 +8,7 @@
 ##Clone the project
 To clone the prject to your local folder, type in your terminal:
 
-`git clone https://github.com/Bokdem/angular-js.git`
+`git clone https://github.com/Bokdem/development-base.git`
 
 The project will now be cloned to the folder you selected in the terminal. To change the drectory root, type `cd go/to/this/folder`
 
@@ -18,7 +18,7 @@ To activate Gulp to build the project, type in your terminal:
 
 `Gulp`
 
-This is the default option Gulp is set to. Gulp will automatically;
+This is the default option Gulp is set to. **Gulp will automatically;**
 * Build the project
   * _styles (compile SASS + merge + minify)_
   * _scripts (merge + minify)_
