@@ -14,6 +14,10 @@ gulp.task('server', function() {
     server: {
       baseDir: paths.serve,
       directory: true
+    },
+    port: 8000,
+    ui: {
+      port: 8001
     }
   });
 });
