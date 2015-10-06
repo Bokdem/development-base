@@ -2,8 +2,8 @@
 
 ####Setup for front-end webdevelopment. This includes JADE & SASS compiling. Creates a localhost:8000 and more. Just clone the project and run Gulp.
 
-####* httpdocs/ is filled with output
-####* project/ is the working area
+#####* httpdocs/ is filled with output
+#####* project/ is the working area
 
 ---
 
