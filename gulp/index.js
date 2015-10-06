@@ -19,6 +19,7 @@ gulp.task('watch', function() {
 // Build
 gulp.task('build', function() {
   gutil.log(gutil.colors.green('Building project'));
+  gutil.beep();
   gulp.start('styles', 'scripts', 'images', 'templates');
 });
 
