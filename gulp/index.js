@@ -13,14 +13,14 @@ gulp.task('watch', function() {
   gulp.watch( path.SRC.styles + '**/*.{scss, sass}', ['styles']);
   gulp.watch( path.SRC.scripts + 'app/**/*.js', ['js-app']);
   gulp.watch( path.SRC.scripts + 'libs/**/*.js', ['js-libs']);
-  gulp.watch( path.SRC.images + '**/*', ['images']);
+  // gulp.watch( path.SRC.images + '**/*', ['images']);
 });
 
 // Build
 gulp.task('build', function() {
   gutil.log(gutil.colors.green('Building project'));
   gutil.beep();
-  gulp.start('styles', 'scripts', 'images', 'templates');
+  gulp.start('styles', 'scripts', 'templates');
 });
 
 // Serve task
