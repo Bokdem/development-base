@@ -1,24 +1,24 @@
 {
-  "name": "angular-js",
+  "name": "development-base",
   "version": "1.0.0",
-  "description": "angular test",
+  "description": "base project setup",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Bokdem/angular-js.git"
+    "url": "https://github.com/Bokdem/development-base.git"
   },
   "author": "Mathijs de Bok",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Bokdem/angular-js/issues"
+    "url": "https://github.com/Bokdem/development-base/issues"
   },
-  "homepage": "https://github.com/Bokdem/angular-js",
+  "homepage": "https://github.com/Bokdem/development-base",
   "devDependencies": {
     "browser-sync": "^2.9.8",
-    "COMMENT":" vervang single-quote => 'chalk': '^1.1.1' ",
+    "chalk": "^1.1.1",
     "glob": "^5.0.15",
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^3.0.2",
